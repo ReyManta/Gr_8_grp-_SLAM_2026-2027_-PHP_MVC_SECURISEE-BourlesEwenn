@@ -1,0 +1,119 @@
+ERROR - 2026-09-24 08:32:32 --> mysqli_sql_exception: La table 'gsbv2.t_billet' n'existe pas in C:\wamp64\www\CodeIgniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\CodeIgniter\system\Database\MySQLi\Connection.php(306): mysqli->query('select BIL_ID, ...', 0)
+#1 C:\wamp64\www\CodeIgniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select BIL_ID, ...')
+#2 C:\wamp64\www\CodeIgniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select BIL_ID, ...')
+#3 C:\wamp64\www\CodeIgniter\app\Models\Modele.php(38): CodeIgniter\Database\BaseConnection->query('select BIL_ID, ...')
+#4 C:\wamp64\www\CodeIgniter\app\Controllers\Controleur.php(56): App\Models\Modele->getBillets()
+#5 C:\wamp64\www\CodeIgniter\app\Controllers\Controleur.php(33): App\Controllers\Controleur->accueil()
+#6 C:\wamp64\www\CodeIgniter\system\CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 C:\wamp64\www\CodeIgniter\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+#8 C:\wamp64\www\CodeIgniter\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2026-09-24 08:32:32 --> La table 'gsbv2.t_billet' n'existe pas
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\Modele.php(38): CodeIgniter\Database\BaseConnection->query('select BIL_ID, BIL_TITRE, BIL_DATE from T_BILLET order by BIL_ID desc')
+ 2 APPPATH\Controllers\Controleur.php(56): App\Models\Modele->getBillets()
+ 3 APPPATH\Controllers\Controleur.php(33): App\Controllers\Controleur->accueil()
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-09-24 08:42:19 --> mysqli_sql_exception: La table 'gsbv2.t_billet' n'existe pas in C:\wamp64\www\CodeIgniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\CodeIgniter\system\Database\MySQLi\Connection.php(306): mysqli->query('select BIL_ID, ...', 0)
+#1 C:\wamp64\www\CodeIgniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select BIL_ID, ...')
+#2 C:\wamp64\www\CodeIgniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select BIL_ID, ...')
+#3 C:\wamp64\www\CodeIgniter\app\Models\Modele.php(38): CodeIgniter\Database\BaseConnection->query('select BIL_ID, ...')
+#4 C:\wamp64\www\CodeIgniter\app\Controllers\Controleur.php(56): App\Models\Modele->getBillets()
+#5 C:\wamp64\www\CodeIgniter\app\Controllers\Controleur.php(33): App\Controllers\Controleur->accueil()
+#6 C:\wamp64\www\CodeIgniter\system\CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 C:\wamp64\www\CodeIgniter\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+#8 C:\wamp64\www\CodeIgniter\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2026-09-24 08:42:19 --> La table 'gsbv2.t_billet' n'existe pas
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\Modele.php(38): CodeIgniter\Database\BaseConnection->query('select BIL_ID, BIL_TITRE, BIL_DATE from T_BILLET order by BIL_ID desc')
+ 2 APPPATH\Controllers\Controleur.php(56): App\Models\Modele->getBillets()
+ 3 APPPATH\Controllers\Controleur.php(33): App\Controllers\Controleur->accueil()
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-09-24 08:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 08:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 08:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-09-24 09:32:48 --> mysqli_sql_exception: La commande 'DELETE' est interdite à l'utilisateur: 'visiteur'@'@localhost' sur la table 'lignefraisforfait' in C:\wamp64\www\CodeIgniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\CodeIgniter\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM Lig...', 0)
+#1 C:\wamp64\www\CodeIgniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM Lig...')
+#2 C:\wamp64\www\CodeIgniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM Lig...')
+#3 C:\wamp64\www\CodeIgniter\app\Models\Modele.php(217): CodeIgniter\Database\BaseConnection->query('DELETE FROM Lig...', Array)
+#4 C:\wamp64\www\CodeIgniter\app\Controllers\Controleur.php(325): App\Models\Modele->supprimerLignesFraisForfait('c54')
+#5 C:\wamp64\www\CodeIgniter\system\CodeIgniter.php(915): App\Controllers\Controleur->admin()
+#6 C:\wamp64\www\CodeIgniter\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+#7 C:\wamp64\www\CodeIgniter\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2026-09-24 09:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-09-24 09:34:00 --> mysqli_sql_exception: La commande 'DELETE' est interdite à l'utilisateur: 'visiteur'@'@localhost' sur la table 'lignefraisforfait' in C:\wamp64\www\CodeIgniter\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\CodeIgniter\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM Lig...', 0)
+#1 C:\wamp64\www\CodeIgniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM Lig...')
+#2 C:\wamp64\www\CodeIgniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM Lig...')
+#3 C:\wamp64\www\CodeIgniter\app\Models\Modele.php(217): CodeIgniter\Database\BaseConnection->query('DELETE FROM Lig...', Array)
+#4 C:\wamp64\www\CodeIgniter\app\Controllers\Controleur.php(325): App\Models\Modele->supprimerLignesFraisForfait('test')
+#5 C:\wamp64\www\CodeIgniter\system\CodeIgniter.php(915): App\Controllers\Controleur->admin()
+#6 C:\wamp64\www\CodeIgniter\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+#7 C:\wamp64\www\CodeIgniter\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\CodeIgniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2026-09-24 09:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-09-24 09:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
